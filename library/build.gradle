@@ -39,6 +39,7 @@ dependencies {
 }
 
 publish {
+    repoName = 'MVP'
     userOrg = 'zq26zhangqi'      // bintray注册的用户名
     groupId = 'com.github.danielzq'
     desc = 'v1.0.0 Release'
