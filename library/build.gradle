@@ -1,5 +1,10 @@
 apply plugin: 'com.android.library'
 
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.danielzq'
+
+apply plugin: 'com.novoda.bintray-release'
+
 android {
     compileSdkVersion 28
 
@@ -31,4 +36,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+publish {
+    userOrg = 'zq26zhangqi'      // bintray注册的用户名
+    groupId = 'com.github.danielzq'
+    desc = 'v1.0.0 Release'
+    artifactId = 'EXMVP'// bintray创建的package
+    publishVersion = '1.0.0'
 }
