@@ -45,4 +45,5 @@ publish {
     desc = 'v1.0.0 Release'
     artifactId = 'EXMVP'// bintray创建的package
     publishVersion = '1.0.0'
+    website = 'https://github.com/danielzq/EXMVP'
 }
