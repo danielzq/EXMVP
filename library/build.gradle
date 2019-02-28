@@ -46,8 +46,8 @@ publish {
     repoName = 'MVP'
     userOrg = 'zq26zhangqi'      // bintray注册的用户名
     groupId = 'com.github.danielzq'
-    desc = 'v1.0.0 Release'
+    desc = 'v1.0.1 Release'
     artifactId = 'EXMVP'// bintray创建的package
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     website = 'https://github.com/danielzq/EXMVP'
 }

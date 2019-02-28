@@ -32,6 +32,12 @@ public class EXMVPBasePresenter<V extends EXMVPView> implements EXMVPresenter<V>
     public void onCreate() {
 
     }
+
+    @Override
+    public void onStart() {
+
+    }
+
     @UiThread
     @Override
     public void onResume() {
@@ -56,6 +62,11 @@ public class EXMVPBasePresenter<V extends EXMVPView> implements EXMVPresenter<V>
     @UiThread
     @Override
     public void onPause() {
+
+    }
+
+    @Override
+    public void onStop() {
 
     }
 

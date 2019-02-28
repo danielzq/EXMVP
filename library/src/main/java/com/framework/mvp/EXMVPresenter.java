@@ -22,6 +22,10 @@ public interface EXMVPresenter<V extends EXMVPView> extends LifecycleObserver {
     void onCreate();
 
     @UiThread
+    @OnLifecycleEvent(Lifecycle.Event.ON_START)
+    void onStart();
+
+    @UiThread
     @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
     void onResume();
 
@@ -34,6 +38,10 @@ public interface EXMVPresenter<V extends EXMVPView> extends LifecycleObserver {
     @UiThread
     @OnLifecycleEvent(Lifecycle.Event.ON_PAUSE)
     void onPause();
+
+    @UiThread
+    @OnLifecycleEvent(Lifecycle.Event.ON_STOP)
+    void onStop();
 
     @UiThread
     @OnLifecycleEvent(Lifecycle.Event.ON_DESTROY)

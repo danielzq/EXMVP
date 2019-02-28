@@ -29,11 +29,14 @@ public abstract class EXMVPBaseFragment<P extends EXMVPresenter> extends Fragmen
      * @return Bound presenter
      */
     protected P getPresenter() {
-        if (mPresenter == null) {
-            mPresenter = createPresenter();
-            mPresenter.attachView(this);
+        try {
+            if (mPresenter == null) {
+                mPresenter = createPresenter();
+                mPresenter.attachView(this);
+            }
+            getLifecycle().addObserver(mPresenter);
+        } catch (Exception e) {
         }
-        getLifecycle().addObserver(mPresenter);
         return mPresenter;
     }
 
