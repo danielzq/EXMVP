@@ -1,6 +1,6 @@
 # EXMVP
 
-[![](https://jitpack.io/v/danielzq/EXMVP.svg)](https://jitpack.io/#danielzq/EXMVP)
+[![](https://jitpack.io/v/danielzq/EXMVP.svg)](https://jitpack.io/#danielzq/EXMVP) [ ![Download](https://api.bintray.com/packages/zq26zhangqi/MVP/EXMVP/images/download.svg) ](https://bintray.com/zq26zhangqi/MVP/EXMVP/_latestVersion)
 
 ## Download
 1. Add to root build.gradle:
