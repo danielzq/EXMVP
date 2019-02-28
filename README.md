@@ -16,7 +16,7 @@
 2. Configure this dependency to your app build.gradle:
 
 ```
-    implementation 'com.github.danielzq:EXMVP:1.0.0'
+    implementation 'com.github.danielzq:EXMVP:1.0.1'
 ```
 
 ## How to use
